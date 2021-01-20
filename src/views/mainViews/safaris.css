@@ -1,0 +1,31 @@
+@media screen and (orientation: portrait) {
+    #imageDisplayBackground { 
+        background-image: url("../../assets/img/bgelephant.jpg");
+        background-position: center -0px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: white;
+    }
+    #imageDisplayBackgroundCarousel { 
+        background-image: url("../../assets/img/africa.jpg");
+        background-position: center -0px;
+        background-size: cover;
+        height: 500px;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    #imageDisplayBackground { 
+        background-image: url("../../assets/img/bgelephant.jpg");
+        background-position: center -250px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: white;
+    }
+    #imageDisplayBackgroundCarousel { 
+        background-image: url("../../assets/img/africa.jpg");
+        background-position: center -500px;
+        background-size: cover;
+        height: 500px;
+    }
+}

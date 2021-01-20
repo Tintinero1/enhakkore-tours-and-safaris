@@ -1,0 +1,61 @@
+@media screen and (orientation: portrait) {
+    #imageDisplayBackgroundTour { 
+        background-image: url("../../assets/img/pajaros_rio.jpg");
+        background-position: center -0px;
+        background-size: cover;
+    }
+    #imageDisplayBackgroundCarousel { 
+        background-image: url("../../assets/img/africa.jpg");
+        background-position: center -0px;
+        background-size: cover;
+        height: 500px;
+    }
+    #GalleryImages {
+        height: 250px;
+        width: 100%;
+    }
+
+    #toursButtons {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    #toursButtons div{
+        margin: 0px;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    #imageDisplayBackgroundTour { 
+        background-image: url("../../assets/img/pajaros_rio.jpg");
+        background-position: center -350px;
+        background-size: cover;
+    }
+    #imageDisplayBackgroundCarousel { 
+        background-image: url("../../assets/img/africa.jpg");
+        background-position: center -500px;
+        background-size: cover;
+        height: 500px;
+    }
+    #GalleryImages {
+        height: 170px;
+        width: 100%;
+    }
+    #toursButtons {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    #toursButtons div{
+        margin: 5px;
+    }
+}
+
+.textJustify {
+    text-align: justify;
+}
+

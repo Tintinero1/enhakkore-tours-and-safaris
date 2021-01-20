@@ -1,0 +1,27 @@
+@media screen and (orientation: portrait) {
+    #imageDisplayBackgroundLand { 
+        background-image: url("../../assets/img/bgSafaris.jpg");
+        background-position: center -0px;
+        background-size: cover;
+    }
+    #imageDisplayBackgroundCarousel { 
+        background-image: url("../../assets/img/africa.jpg");
+        background-position: center -0px;
+        background-size: cover;
+        height: 500px;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    #imageDisplayBackgroundLand { 
+        background-image: url("../../assets/img/bgSafaris.jpg");
+        background-position: center 0px;
+        background-size: cover;
+    }
+    #imageDisplayBackgroundCarousel { 
+        background-image: url("../../assets/img/africa.jpg");
+        background-position: center -500px;
+        background-size: cover;
+        height: 500px;
+    }
+}

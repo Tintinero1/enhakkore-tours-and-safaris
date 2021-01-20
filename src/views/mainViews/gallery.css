@@ -1,0 +1,35 @@
+@media screen and (orientation: portrait) {
+    #imageDisplayBackgroundGallery { 
+        background-image: url("../../assets/img/paisajeGallery.jpg");
+        background-position: center -0px;
+        background-size: cover;
+    }
+    #imageDisplayBackgroundCarousel { 
+        background-image: url("../../assets/img/africa.jpg");
+        background-position: center -0px;
+        background-size: cover;
+        height: 500px;
+    }
+    #GalleryImages {
+        height: 250px;
+        width: 100%;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    #imageDisplayBackgroundGallery { 
+        background-image: url("../../assets/img/paisajeGallery.jpg");
+        background-position: center -500px;
+        background-size: cover;
+    }
+    #imageDisplayBackgroundCarousel { 
+        background-image: url("../../assets/img/africa.jpg");
+        background-position: center -500px;
+        background-size: cover;
+        height: 500px;
+    }
+    #GalleryImages {
+        height: 170px;
+        width: 100%;
+    }
+}
