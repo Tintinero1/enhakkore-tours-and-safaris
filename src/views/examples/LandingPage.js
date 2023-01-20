@@ -759,7 +759,7 @@ function LandingPage(props) {
                   />
                   <Row>
                     <Col className="ml-auto mr-auto" md="4">
-                      <Button className="btn-fill" color="danger" size="lg">
+                      <Button onClick={(e) => props.sendEmail(e)} className="btn-fill" color="danger" size="lg">
                         Send Message
                       </Button>
                     </Col>

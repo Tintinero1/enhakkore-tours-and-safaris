@@ -201,9 +201,11 @@ function Safaris(props) {
             
             <h3 style={{textAlign: "left", fontWeight: "bold"}}>Special Recommendation</h3>
             <br></br>
-              <p color="black" style={{fontWeight: "bold", textAlign: "justify"}}>After you have decided to target your adventure into Tanzania, you will find extraordinary places to discover while we guide you into the unknown. 
-              See unbelievable landscapes, beautiful nature and a strong diversity of wild life. Have a chance to talk with our amazing team, we will recieve you with all our joy and warm hearts, we promise that the first thing
-              that you will see from us is our happiness in our smile.</p>
+              <p color="black" style={{fontWeight: "bold", textAlign: "justify"}}>It is important to plan your trip with anticipation. 
+              There are so many sites to visit and for many, time is the problem. Because of this, our guides will help you to narrow down your interests so that your expectations may be met. 
+              To be able to control your schedule and what to do, where to go and when to do so; an individual trip is your best option. If you want to cut down costs then a group trip is your best option. 
+              This will need some flexibility on your part so that the interests of the group are met. 
+              Among the most important must see sites in Tanzania include: Mt Kilimanjaro, Ngorongoro crater, Olduvai gorge and Zanzibar beaches.</p>
             
             </div>
         </center>
@@ -671,7 +673,7 @@ function Safaris(props) {
                   />
                   <Row>
                     <Col className="ml-auto mr-auto" md="4">
-                      <Button className="btn-fill" color="danger" size="lg">
+                      <Button onClick={(e) => props.sendEmail(e)} className="btn-fill" color="danger" size="lg">
                         Send Message
                       </Button>
                     </Col>
